@@ -188,5 +188,13 @@
     .card-container{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .plants-container{
+        flex-direction: column;
+    }
+
+    .badge{
+        display: none;
+    }
 }
 
