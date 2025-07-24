@@ -171,6 +171,38 @@
     
 }
 
+/* fourth section */
+
+.join-section{
+    background-image: url("assets/news-letter-bg.png");
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.join-container{
+    text-align: center;
+    padding: 170px;
+}
+
+.join-container h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    font-size: 1rem;
+    width: 40%;
+    padding: 12px 20px;
+
+}
+
 
 /* small device responsive */
 
