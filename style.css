@@ -132,6 +132,45 @@
     margin: 20px 5px;
 }
 
+/* second section */
+
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.plants-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.plants-img{
+    position: relative;
+    display: inline-block;
+}
+
+.badge{
+    position: absolute;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: -70px;
+}
+
+.plants-title h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.plants-title li{
+    font-size: 1.25rem;
+    padding: 10px 0px;
+    
+}
+
 
 /* small device responsive */
 
