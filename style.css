@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     
 }
@@ -66,12 +66,30 @@
 }
 
 .banner-title{
-    width: 570px;
+    max-width: 570px;
 }
 .banner-title h2{
     font-size: 4rem;
     margin-bottom: 0;
 }
 .banner-title p{
-    font-size: 1.30rem;
+    font-size: 1.25rem;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+/* small device responsible */
+
+@media screen and (max-width: 576px){
+    .home, 
+    .shop, 
+    .about-us{
+        display: none;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
 }
