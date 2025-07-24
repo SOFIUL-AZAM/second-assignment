@@ -1,0 +1,39 @@
+
+
+/* shared style  */
+
+.orange-color{
+    color: #E95A08;
+}
+
+.gray-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.black-color{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* header style */
+
+
+/* navbar style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.unorder-list ul{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.unorder-list ul li{
+    list-style: none;
+    
+}
+.unorder-list ul a{
+    text-decoration: none;
+}
