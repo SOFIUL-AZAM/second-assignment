@@ -37,6 +37,13 @@
     border: none;
     padding: 10px 80px;
 }
+.btn-secondary{
+    color: white;
+    background-color: #E95A08;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 80px;
+}
 
 /* header style */
 
@@ -245,7 +252,7 @@
         padding: 10px 16px;
     }
 
-    .btn-primary {
+    .btn-secondary {
         padding: 10px 16px;
     }
 }
