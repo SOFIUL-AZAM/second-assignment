@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* shared style  */
 
@@ -22,11 +38,14 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+    
 }
 .unorder-list ul{
     display: flex;
     gap: 20px;
-    
     
 }
 
@@ -36,4 +55,23 @@
 }
 .unorder-list ul a{
     text-decoration: none;
+}
+
+/* banner style */
+
+.banner-container{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.banner-title{
+    width: 570px;
+}
+.banner-title h2{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.banner-title p{
+    font-size: 1.30rem;
 }
