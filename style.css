@@ -45,6 +45,14 @@
     padding: 10px 80px;
 }
 
+.btn-primary:hover {
+  background-color: violet;
+}
+
+.btn-secondary:hover {
+    background-color: violet;
+}
+
 /* header style */
 
 
