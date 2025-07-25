@@ -358,6 +358,34 @@
         display: none;
     }
 
+    /*  */
+
+    .deals-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .deals-title p {
+        width: 100%;
+    }
+
+    .deal-bloom,
+    .deal-ana,
+    .deal-zabo {
+        width: 370px;
+        height: 172px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .deals-1 {
+        row-gap: 20px;
+    }
+
+    /*  */
+
     .join-container {
         padding: 60px 20px;
     }
